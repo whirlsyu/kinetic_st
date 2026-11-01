@@ -7,16 +7,16 @@ name = "kinetic-st"
 version = "0.1.0"
 description = "Kinetic-theory framework for multiscale modelling of spatial transcriptomics"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.9"
 authors = [
     {name = "KineticST Project Team"},
 ]
+keywords = ["spatial-transcriptomics", "kinetic-theory", "bioinformatics", "single-cell"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
@@ -32,6 +32,11 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "matplotlib>=3.7"]
 demo = ["matplotlib>=3.7"]
+
+[project.urls]
+Homepage = "https://github.com/whirlsyu/kinetic_st"
+Repository = "https://github.com/whirlsyu/kinetic_st.git"
+Issues = "https://github.com/whirlsyu/kinetic_st/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
