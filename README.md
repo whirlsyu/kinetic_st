@@ -9,6 +9,12 @@ a spatial graph with stochastic dynamics and invariant-measure analysis.
 ## Installation
 
 ```bash
+pip install kinetic-st
+```
+
+For development (editable install):
+
+```bash
 pip install -e .
 ```
 
